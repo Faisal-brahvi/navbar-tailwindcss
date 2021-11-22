@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- link css here -->
+    <title>Tailwind Login Form</title>
+</head>
+
+<body class="bg-yellow-200 h-screen flex justify-center items-center">
+
+    <!-- start conatainer -->
+    <div
+        class="container  h-screen-75 w-full group lg:w-4/5 lg:flex justify-center items-center lg:flex-nowrap bg-white rounded">
+
+        <!-- start product side -->
+        <div class="product bg-theme-yellow-dark lg:opacity-100 opacity-80 flex h-full w-full left-0 bottom-0 absolute bg-transparent lg:w-2/4 lg:relative z-0">
+
+            <div class="w-full h-full flex items-end justify-center relative">
+                <!-- start image -->
+                <div class="w-full h-full lg:flex  justify-center items-center">
+                    <img src="images/1.png" class="object-cover opacity-10 group-hover:opacity-100 lg:w-full h-full transform    group-hover:translate-x-20 ease-in-out transition-all duration-700" alt="">
+                    
+                </div>
+                <!-- End image -->
+
+                <div class="absolute left-24 bottom-10 w-full h-6 filter blur bg-black rounded-full opacity-10 group-hover:opacity-25 "></div>
+            </div>
+
+            <!-- start learn with Faisal -->
+            <div class=" transform absolute w-full h-full left-0 hidden lg:flex text-6xl font-semibold justify-center">
+                <span class="transform block uppercase -rotate-90 text-yellow-200 whitespace-nowrap ml-8 group-hover:translate-x-3 hover:ml-48 opacity-0 group-hover:opacity-50 transition-all ease-in-out duration-700">learn with faisal</span>
+            </div>
+            <!-- End larn with faisal -->
+            <div class="w-32 h-full bg-white hidden lg:block ml-auto"></div>
+        </div>
+        <!-- End product side -->
+
+        <!-- Start form side  -->
+        <div class="h-full w-full lg:w-2/4 z-10 bg-transparent  relative">
+            <div class="flex p-4 lg:p-0 items-center justify-center form-wrapper h-full w-full lg:w-3/4">
+                <div class="form-element w-full space-y-10">
+                    <!--start login form texts-->
+                    <label class="w-full block text-center text-gray-800 lg:text-gray-400 " for="">
+                        <span class=" text-4xl font-semibold  ">Login</span>
+                        <span>Form</span>
+                    </label>
+                    <!-- End login form texts -->
+
+
+                    <div class="text-gray-900 font-semibold w-full ">
+
+                        <!-- Start Email -->
+                        <div class="mb-4">
+                            <label class="" for="">
+                                <span class="block">Email</span>
+                                <input type="text"
+                                    class="w-full border border-gray-200 focus:outline-none hover:border-gray-500 p-1 "
+                                    name="Email" id="">
+                            </label>
+                        </div>
+                        <!-- End Email -->
+
+                        <!-- Start Password -->
+                        <div class="">
+                            <label class="" for="">
+                                <span class="block">Password</span>
+                                <input type="password"
+                                    class="w-full border border-gray-200 focus:outline-none hover:border-gray-500 p-1 "
+                                    name="Email" id="">
+                            </label>
+                        </div>
+                        <!-- End password -->
+
+                        <!-- Start remember checkbox and forget password -->
+                        <div class="w-full flex justify-between items-center mt-4">
+
+                            <!-- Start remember and checkbox -->
+                            <div>
+                                <label for="">
+                                    <input type="checkbox" class="w-4 h-4 cursor-pointer">
+                                </label>
+                                <span>Remember</span>
+                            </div>
+                            <!-- End remember and checkbox -->
+
+                            <!-- Start Forget password -->
+                            <div>
+                                <label class="border-b border-gray-800" for="">
+                                    Forget Password
+                                </label>
+                            </div>
+                            <!-- End Forget password -->
+                        </div>
+                        <!-- End remember checkbox and forget password -->
+                    </div>
+                    <button
+                        class="btn w-full p-2 bg-theme-yellow font-semibold rounded hover:bg-theme-yellow-dark">Submit</button>
+                </div>
+            </div>
+        </div>
+        <!-- End form side -->
+    </div>
+    <!-- End container -->
+
+</body>
+
+</html>
